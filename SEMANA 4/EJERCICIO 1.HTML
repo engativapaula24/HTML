@@ -15,9 +15,73 @@
     <nav>
     <ul>
         <li type="disc" style="color:red;">Home</li>
-        <li type="square"> </li>
-        <li type=" </li>
-        <li type=" </li>
+        <li type="square">Poductos</li>
+        <li type="circle">Servicios</li>
+        <li>Contacto</li>
+    </ul>
     </nav>
+    <seccion>
+        <!-- Method GET pasa los datos por la url, atravez de parametros// Metrod POST pasa los datos de forma interna (no se ven)-->
+        <form action="datos.php" method="post"></form>
+        <!-- seccion de marco de formulario -->
+        <fieldset>
+        <!-- seccion de ingreso de nombre -->
+        <label>Nombre Completo</label>
+        <input name="nombre" type="text" placeholder="Ingrese su nombre completo" required="">
+        <br><br>
+
+        <!-- seccion email -->
+        <label>Contraseña:</label>
+        <input name="email" type="email" placeholder="Ingrese su Email" required="">
+        <br><br>
+
+        <!-- seccion contraseña-->
+        <label>Contraseña</label>
+        <input name="contraseña" type="password" placeholder="Ingrese su contraseña" required="">
+        <br><br>
+
+            <!-- seccion Hobies -->
+            <label>Secleciona tus hobbies:
+            </label>
+            <br>
+                <input name="cine" type="chekbox">Cine<br>
+                <input name="lectura" type="chekbox">lectura<br>
+                <input name="Deporte" type="chekbox">Deporte<br>
+            <br>
+
+            <!-- Estado civil -->
+
+            <label>Estado civil</label>
+                <input name="estcivil" type="radio" value="casado">Casado(a)<br>
+                <input name="estcivil" type="radio" value="soltero">Soltero(a)<br>
+                <input name="estcivil" type="radio" value="viudo">Viudo(a)<br>
+            <br>
+            <br>
+
+            <!-- Selecionar opcion lista -->
+            <label>PROGRAMAS TECNICOS</label>
+            <select name="select">
+                <option>Seleccione programa...</option>
+                <option>Sistemas</option>
+                <option>diseño gráfico</option>
+                <option>Contabilidad</option>
+            </select>
+            <br>
+            <br>
+            <label>Tu comentario:</label><br>
+                <textarea name="mensaje" rows="5" cols="40"></textarea>
+            </fieldset>
+            <br><br>
+            <!-- seccion de botones formulario submit : enviar datos cancel: borrar datos ingresados -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+            <br>
+            <br>
+        </form>
+    </seccion>
+        <!-- seccion de pie de pagina -->
+    <footer>
+        Derechos reservados &copy;2022&#64;NOMBRE STD
+    </footer>
 </body>
 </html>
