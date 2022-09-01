@@ -49,7 +49,7 @@ section{
     padding: 10px 10px;
     border-radius: 20px;
     margin:10px auto;
-    background: linear-gradient(navy, blue);
+    background: linear-gradient(orange, blue);
 }
 form{
     background: silver;
@@ -100,5 +100,5 @@ form input{
 footer{
     font-size: 16px;
     text-align: center;
-    color:darkblue
-}
+    color:darkblue;
+} 
