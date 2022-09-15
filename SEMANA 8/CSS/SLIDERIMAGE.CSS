@@ -6,16 +6,6 @@ body{
 h1,h3{
     color: white
 }
-
-#miCarrusel,
-.carousel-inner,
-.carousel-item,
-.carousel-item.active{
-    height: 70vh;
-}
-.carousel-caption{
-    background: rgba(0, 0, 0, 0.6);
-}
 .flip-container {
     background-color: black;
     width: 100%;
