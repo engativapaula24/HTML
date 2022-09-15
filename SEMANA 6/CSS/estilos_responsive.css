@@ -1,6 +1,6 @@
 /* seccion INICIAL */
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin: 0; /* Inicializa margenes*/
     padding: 0;/* Inicializa padding*/
 }
@@ -17,10 +17,10 @@ body{
     border:2px solid blue;
     border-radius: 20px 20px 10px 10px;
     display: flex;
-    flex-direction: row;/*dirección horizontal o en fila*/
-    justify-content: center;/*alinea horizontalmente*/
-    align-items: center;/*alinea verticalmente*/
-    grid-area: header;/*asigna nombre al contenedor*/
+    flex-direction: row; /*dirección horizontal o en fila*/
+    justify-content: center; /*alinea horizontalmente*/
+    align-items: center; /*alinea verticalmente*/
+    grid-area: header; /*asigna nombre al contenedor*/
 }
 
 /* seccion menu */
@@ -30,12 +30,12 @@ ul{
 }
 li{
     display: inline;
-    list-style: none;/* quitar las viñetas*/
+    list-style: none; /* quitar las viñetas*/
     margin: 0 5px;
     font: bold 12px Verdana;
 }
 a{
-    color: white;
+    color: rgba(10,9,9);
     text-decoration: none; /* quitar las lineas subrayadas*/
 }
 #menu{
@@ -249,12 +249,12 @@ iframe{
     /* Nota: la barra <nav> se programará con javascript_
       por medio de funciones en boton hamburguesa*/
     #menu{
-        display: none;/* se oculta contenedor nav opciones*/
+        display: none; /* se oculta contenedor nav opciones*/
     } 
     /* se define que aparezca el menu hamburguesa en la parte superior*/
     .openmenu{
         display: block;
-        position:absolute;
+        position: absolute;
         top:10px;
         right:120px;
         z-index:99;/* se define capa encima del texto de contenido HTML*/
@@ -284,7 +284,7 @@ iframe{
     height: auto;
 }
 .buscarbox{
-    display:none;
+    display: none;
 }
 }
 
